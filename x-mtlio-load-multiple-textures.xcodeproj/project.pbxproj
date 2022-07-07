@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13C82C812877811A00EA8A4B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C82C802877811A00EA8A4B /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		13C82C7B2877811A00EA8A4B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		13BC3BBE2877984F00276DC2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		13C82C7D2877811A00EA8A4B /* x-mtlio-load-multiple-textures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "x-mtlio-load-multiple-textures"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13C82C802877811A00EA8A4B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		13C82C882877814000EA8A4B /* cubemap_posy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cubemap_posy.png; sourceTree = "<group>"; };
+		13C82C892877814000EA8A4B /* cubemap_posz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cubemap_posz.png; sourceTree = "<group>"; };
+		13C82C8A2877814000EA8A4B /* cubemap_negz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cubemap_negz.png; sourceTree = "<group>"; };
+		13C82C8B2877814000EA8A4B /* cubemap_negx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cubemap_negx.png; sourceTree = "<group>"; };
+		13C82C8C2877814000EA8A4B /* cubemap_readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = cubemap_readme.txt; sourceTree = "<group>"; };
+		13C82C8D2877814000EA8A4B /* cubemap_negy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cubemap_negy.png; sourceTree = "<group>"; };
+		13C82C8E2877814100EA8A4B /* cubemap_posx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cubemap_posx.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13C82C7A2877811A00EA8A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13C82C742877811A00EA8A4B = {
+			isa = PBXGroup;
+			children = (
+				13BC3BBE2877984F00276DC2 /* README.md */,
+				13C82C7F2877811A00EA8A4B /* x-mtlio-load-multiple-textures */,
+				13C82C7E2877811A00EA8A4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13C82C7E2877811A00EA8A4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13C82C7D2877811A00EA8A4B /* x-mtlio-load-multiple-textures */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13C82C7F2877811A00EA8A4B /* x-mtlio-load-multiple-textures */ = {
+			isa = PBXGroup;
+			children = (
+				13C82C872877813000EA8A4B /* cubemap-textures */,
+				13C82C802877811A00EA8A4B /* main.swift */,
+			);
+			path = "x-mtlio-load-multiple-textures";
+			sourceTree = "<group>";
+		};
+		13C82C872877813000EA8A4B /* cubemap-textures */ = {
+			isa = PBXGroup;
+			children = (
+				13C82C8B2877814000EA8A4B /* cubemap_negx.png */,
+				13C82C8D2877814000EA8A4B /* cubemap_negy.png */,
+				13C82C8A2877814000EA8A4B /* cubemap_negz.png */,
+				13C82C8E2877814100EA8A4B /* cubemap_posx.png */,
+				13C82C882877814000EA8A4B /* cubemap_posy.png */,
+				13C82C892877814000EA8A4B /* cubemap_posz.png */,
+				13C82C8C2877814000EA8A4B /* cubemap_readme.txt */,
+			);
+			path = "cubemap-textures";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13C82C7C2877811A00EA8A4B /* x-mtlio-load-multiple-textures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13C82C842877811A00EA8A4B /* Build configuration list for PBXNativeTarget "x-mtlio-load-multiple-textures" */;
+			buildPhases = (
+				13C82C792877811A00EA8A4B /* Sources */,
+				13C82C7A2877811A00EA8A4B /* Frameworks */,
+				13C82C7B2877811A00EA8A4B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "x-mtlio-load-multiple-textures";
+			productName = "x-mtlio-load-multiple-textures";
+			productReference = 13C82C7D2877811A00EA8A4B /* x-mtlio-load-multiple-textures */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13C82C752877811A00EA8A4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					13C82C7C2877811A00EA8A4B = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 13C82C782877811A00EA8A4B /* Build configuration list for PBXProject "x-mtlio-load-multiple-textures" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13C82C742877811A00EA8A4B;
+			productRefGroup = 13C82C7E2877811A00EA8A4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13C82C7C2877811A00EA8A4B /* x-mtlio-load-multiple-textures */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13C82C792877811A00EA8A4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13C82C812877811A00EA8A4B /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13C82C822877811A00EA8A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13C82C832877811A00EA8A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		13C82C852877811A00EA8A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		13C82C862877811A00EA8A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13C82C782877811A00EA8A4B /* Build configuration list for PBXProject "x-mtlio-load-multiple-textures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13C82C822877811A00EA8A4B /* Debug */,
+				13C82C832877811A00EA8A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13C82C842877811A00EA8A4B /* Build configuration list for PBXNativeTarget "x-mtlio-load-multiple-textures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13C82C852877811A00EA8A4B /* Debug */,
+				13C82C862877811A00EA8A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13C82C752877811A00EA8A4B /* Project object */;
+}
