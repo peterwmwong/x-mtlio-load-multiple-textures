@@ -1,3 +1,5 @@
+> :exclamation: **_Update:_**  Good news! This issue has been fixed in **MacOS Version 13.0 Beta 5 (22A5321d)** / **XCode Version 14.0 Beta 5 (14A5294e)**
+
 This command line project reproduces a **data error** when loading multiple textures with a **single** MTLIOCommandBuffer.
 
 This is associated to FB10582329 (Apple Feedback Assistant).
